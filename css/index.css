@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Merriweather Sans Light";
+    src: url("../fonts/MerriweatherSans-Light.ttf");
+}
+@font-face {
+    font-family: "Merriweather Sans Regular";
+    src: url("../fonts/MerriweatherSans-Regular.ttf");
+}
+@font-face {
+    font-family: "Merriweather Sans Medium";
+    src: url("../fonts/MerriweatherSans-Medium.ttf");
+}
+@font-face {
+    font-family: "Merriweather Sans Bold";
+    src: url("../fonts/MerriweatherSans-Bold.ttf");
+}
+@font-face {
+    font-family: "Merriweather Sans Extra Bold";
+    src: url("../fonts/MerriweatherSans-ExtraBold.ttf");
+}
+
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+
+    --font-extra-bold: Merriweather Sans Extra Bold;
+    --font-bold: Merriweather Sans Bold;
+    --font-medium: Merriweather Sans Medium;
+    --font-regular: Merriweather Sans Regular;
+    --font-light: Merriweather Sans Light;
+}
+
+body{
+    background-color: var(--body-bg-color);
+    color: var(--text-color);
+}
+
+main{
+    padding-top: 30px;
+}
+
+.card {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    background-color: var(--bg-cards);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.img-thumbnail{
+    background-color: #00FF00;
+    border: none;
+}
+
+.col-perfil .card-header{
+    border-bottom: none;
+    background-color: var(--bg-cards);
+}
+
+
+.col-perfil h3{
+    font-family: var(--font-bold);
+    font-size: 23px;
+}
+
+.col-perfil h5{
+    font-family: var(--font-light);
+    font-size: 13px;
+}

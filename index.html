@@ -6,10 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio de portifolio resposivo com bootstrap - Rocketseat</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
   </head>
 
   <body>
-    <main></main>
+    <main>
+      <div class="container-fluid">
+        <div class="row">
+          <!-- Bloco esquerdo, perfil, skills, informações e redes sociais -->
+          <div class="col-3">
+            <!-- Perfils -->
+            <div class="card col-perfil">
+              <div class="card-header">
+                <img src="./assets/perfil.jpeg" class="img-thumbnail mx-auto d-block rounded-circle" height="128" width="128" alt="Foto de perfil do Luffy">
+              </div>
+              <div class="card-body text-center">
+                <h3>Monkey D. Luffy</h3>
+                <h5>Futuro rei dos piratas</h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- Conteudo da pagina -->
+          <div class="col-9">
+            <div class="card">
+              <div class="card-body">
+                This is some text within a card body.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/bootstrap.js"></script>
 
 </html>
