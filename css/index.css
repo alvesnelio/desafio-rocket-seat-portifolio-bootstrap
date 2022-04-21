@@ -51,20 +51,25 @@ main{
 	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
+.card .card-header{
+	border-bottom: none;
+	background-color: var(--bg-cards);
+}
+
 .img-thumbnail{
 	background-color: #00FF00;
 	border: none;
 }
 
 /* ############################## Desenvolvimento ############################## */
-
-/* ############### Perfil ############### */
-.col-perfil .card-header{
-	border-bottom: none;
-	background-color: var(--bg-cards);
+.vinheta-text{
+	font-size: 20px;
+	font-family: var(--font-bold);
+	padding-top: 10px;
+	padding-left: 5px;
 }
 
-
+/* ############### Perfil ############### */
 .col-perfil h3{
 	font-family: var(--font-bold);
 	font-size: 23px;
@@ -76,7 +81,6 @@ main{
 }
 
 /* ############### Links ############### */
-
 .col-links .list-group{
 	background-color: transparent;
 }
@@ -99,4 +103,34 @@ main{
 	margin-right: 15px;
 	color: var(--text-color);
 	fill: var(--text-color);
+}
+
+/* ############### Tecnologias ############### */
+.col-tecnologias .col-badges{
+	width: 380px;
+    margin: auto;
+}
+.col-tecnologias .col-badge{
+	width: 100px;
+    height: 30px;
+    color: black;
+    border-radius: 50px;
+    font-size: 10px;
+    line-height: initial;
+    text-decoration: none;
+    padding: 0px;
+    font-family: var(--font-bold);
+    background-color: var(--bg-techs);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-tecnologias .col-badge:nth-child(+3n-1){
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.col-tecnologias .col-badge:nth-child(-n+6){
+	margin-bottom: 10px;
 }
