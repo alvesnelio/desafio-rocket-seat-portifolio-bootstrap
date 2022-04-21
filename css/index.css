@@ -136,44 +136,89 @@ main{
 }
 
 /* ############### Experiencias ############### */
-.col-experiencias{
+.card-experiencias{
 	width: 100%;
 	float: left;
 }
 
-.col-experiencias .experiencias{
+.card-experiencias .experiencias{
 	padding-left: 20px;
 	margin-top: 20px;
 }
 
-.col-experiencias .experiencias:nth-child(1){
+.card-experiencias .experiencias:nth-child(1){
 	margin-top: 0px;
 }
 
-.col-experiencias .experiencias h5{
+.card-experiencias .experiencias h5{
 	font-size: 14px;
 	font-family: var(--font-bold);
 	margin-bottom: 0px;
 }
 
-.col-experiencias .experiencias h5::before{
+.card-experiencias .experiencias h5::before{
 	content: '•';
     padding-left: 5px;
     padding-right: 5px;
 }
 
-.col-experiencias .experiencias p{
+.card-experiencias .experiencias p{
 	padding-left: 16px;
 }
 
-.col-experiencias .experiencias p:nth-child(2){
+.card-experiencias .experiencias p:nth-child(2){
 	font-size: 12px;
 	display: block;
 	font-family: var(--font-light);
 	margin: 5px 0px 0px 0px; 
 }
 
-.col-experiencias .experiencias p:nth-child(3){
+.card-experiencias .experiencias p:nth-child(3){
+	font-size: 12px;
+	display: block;
+	font-family: var(--font-regular);
+	margin: 5px 0px 0px 0px; 
+}
+
+/* ############### Educação ############### */
+.card-educacoes{
+	width: 100%;
+	float: left;
+}
+
+.card-educacoes .educacao{
+	padding-left: 20px;
+	margin-top: 20px;
+}
+
+.card-educacoes .educacao:nth-child(1){
+	margin-top: 0px;
+}
+
+.card-educacoes .educacao h5{
+	font-size: 14px;
+	font-family: var(--font-bold);
+	margin-bottom: 0px;
+}
+
+.card-educacoes .educacao h5::before{
+	content: '•';
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.card-educacoes .educacao p{
+	padding-left: 16px;
+}
+
+.card-educacoes .educacao p:nth-child(2){
+	font-size: 12px;
+	display: block;
+	font-family: var(--font-light);
+	margin: 5px 0px 0px 0px; 
+}
+
+.card-educacoes .educacao p:nth-child(3){
 	font-size: 12px;
 	display: block;
 	font-family: var(--font-regular);
