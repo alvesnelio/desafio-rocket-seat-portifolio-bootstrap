@@ -51,8 +51,10 @@ main{
 	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.card .card-header{
-	border-bottom: none;
+.card .card-header,
+.card .card-body,
+.card .card-footer{
+	border: none;
 	background-color: var(--bg-cards);
 }
 
@@ -67,6 +69,44 @@ main{
 	font-family: var(--font-bold);
 	padding-top: 10px;
 	padding-left: 5px;
+}
+
+.vinheta-text a{
+	float: right;
+	font-size: 14px;
+	color: var(--text-color);
+	font-family: var(--font-regular);
+	text-decoration: none;
+}
+
+.col-main .vinheta-text{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.col-main .vinheta-text .icon{
+	margin-top: -5px;
+}
+
+/* Main */
+.main-row{
+	width: 100%;
+	float: left;
+	display: flex;
+}
+
+@media screen and (max-width: 991px){
+	.main-row{
+		display: block;
+	}
+}
+
+.col-row-wrap{
+	flex: row wrap;
+}
+
+.col-item{
+	flex: 1;
 }
 
 /* ############### Perfil ############### */
@@ -230,4 +270,66 @@ main{
 	display: block;
 	font-family: var(--font-regular);
 	margin: 5px 0px 0px 0px; 
+}
+
+/* ############### Meus Projetos ############### */
+.card-projetos{
+	width: 100%;
+	float: left;
+}
+
+.card-projetos.col-item{
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 30px;
+}
+
+.card-projetos.col-item .vinheta-text{
+	padding: 0px;
+	font-size: 16px;
+	margin-bottom: 0px;
+	line-height: 1;
+}
+
+.card-projetos.col-item:nth-child(1){ 
+	margin-right: 15px;
+}
+
+.card-projetos.col-item:nth-child(2){ 
+	margin-left: 15px;
+}
+
+@media screen and (max-width: 991px) {
+	.card-projetos.col-item:nth-child(1){ 
+		margin-right: 0px;
+	}
+	
+	.card-projetos.col-item:nth-child(2){ 
+		margin-left: 0px;
+	}	
+}
+
+.card-projetos .projetos-body .text{
+	font-size: 14px;
+	font-family: var(--font-regular);
+}
+
+.card-projetos .projetos-footer a{
+	font-size: 14px;
+	color: var(--text-color);
+	font-family: var(--font-regular);
+
+	margin-right: 15px;
+	align-items: center;
+    display: inline-flex;
+	text-decoration: none;
+}
+
+.card-projetos .projetos-footer a .icon{
+	margin-right: 5px;
+}
+
+.card-projetos .projetos-footer a:nth-child(3){
+	float: right;
+	margin-right: 0px;
 }
