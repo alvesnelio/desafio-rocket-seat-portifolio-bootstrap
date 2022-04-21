@@ -107,9 +107,9 @@ main{
 
 /* ############### Tecnologias ############### */
 .card-tecnologias .col-badges{
-	width: 380px;
-    margin: auto;
+	text-align: center;
 }
+
 .card-tecnologias .col-badge{
 	width: 100px;
     height: 30px;
@@ -124,15 +124,22 @@ main{
     display: inline-flex;
     align-items: center;
     justify-content: center;
+	columns: 3;
 }
 
-.card-tecnologias .col-badge:nth-child(+3n-1){
+.card-tecnologias .col-badge:nth-child(+2n-1){
 	margin-left: 20px;
 	margin-right: 20px;
 }
 
-.card-tecnologias .col-badge:nth-child(-n+6){
+.card-tecnologias .col-badge:nth-child(-n+7){
 	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1440px) {
+	.card-tecnologias .col-badge:nth-child(-n+9){
+		margin-bottom: 10px;
+	}
 }
 
 /* ############### Experiencias ############### */
