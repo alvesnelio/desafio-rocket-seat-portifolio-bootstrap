@@ -329,6 +329,15 @@ main{
 	margin-right: 5px;
 }
 
+.card-projetos .projetos-footer a .icon .language{
+	width: 15px;
+	height: 15px;
+	border-radius: 100%;
+	background-color: #E7DE79;
+	border: 2px solid var(--text-color);
+	margin-left: 5px;
+}
+
 .card-projetos .projetos-footer a:nth-child(3){
 	float: right;
 	margin-right: 0px;
