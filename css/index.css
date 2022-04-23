@@ -72,6 +72,11 @@ main{
 }
 
 .vinheta-text a{
+	color: var(--text-color);
+	text-decoration: none;
+}
+
+.vinheta-text a.veja-todos{
 	float: right;
 	font-size: 14px;
 	color: var(--text-color);
@@ -86,27 +91,6 @@ main{
 
 .col-main .vinheta-text .icon{
 	margin-top: -5px;
-}
-
-/* Main */
-.main-row{
-	width: 100%;
-	float: left;
-	display: flex;
-}
-
-@media screen and (max-width: 991px){
-	.main-row{
-		display: block;
-	}
-}
-
-.col-row-wrap{
-	flex: row wrap;
-}
-
-.col-item{
-	flex: 1;
 }
 
 /* ############### Perfil ############### */
@@ -274,39 +258,21 @@ main{
 
 /* ############### Meus Projetos ############### */
 .card-projetos{
-	width: 100%;
-	float: left;
-}
-
-.card-projetos.col-item{
 	padding-left: 20px;
 	padding-right: 20px;
 	margin-bottom: 30px;
+	min-height: 250px;
 }
 
-.card-projetos.col-item .vinheta-text{
+.card-projetos .projetos-header .vinheta-text{
 	padding: 0px;
-	font-size: 16px;
+	font-size: 15px;
 	margin-bottom: 0px;
-	line-height: 1;
+	line-height: 1.5;
 }
 
-.card-projetos.col-item:nth-child(1){ 
-	margin-right: 15px;
-}
-
-.card-projetos.col-item:nth-child(2){ 
-	margin-left: 15px;
-}
-
-@media screen and (max-width: 991px) {
-	.card-projetos.col-item:nth-child(1){ 
-		margin-right: 0px;
-	}
-	
-	.card-projetos.col-item:nth-child(2){ 
-		margin-left: 0px;
-	}	
+.card-projetos .projetos-header .vinheta-text .icon{
+	margin-right: 10px;
 }
 
 .card-projetos .projetos-body .text{
