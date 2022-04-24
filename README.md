@@ -8,10 +8,13 @@
 
 ### Requisitos
 
-- GitHub;
 - HTML;
 - CSS;
+- NODE
+- NPM
+- JAVASCRIPT
 - BOOTSTRAP;
+- GITHUB;
 
 ### Trilha
 
@@ -22,6 +25,19 @@
   - Formulários de outro planeta.
   - Alinhando os planetas.
   - App bonito, até nos textos
+
+### Comandos de instalação e atualização do projeto.
+
+> Apresentar os comandos do arquivo `Makefile`
+
+- Comando: `make project-install`
+  - Executar a instalação das dependencias do projeto.
+- Comando: `make npm-install`
+  - Excutar apenas as instalações de pacotes npm do package.json
+- Comando: `make npm-clear`
+  - Excutar a limpesa de todos os pacotes de dependencias npm do package.json
+  - Especificamente ele executa o `rm -rf node_modules`
+  - Toda vez que rodar esse comando eu recomendo executar o `make npm-install` em seguida.
 
 ### Outras informações.
 
