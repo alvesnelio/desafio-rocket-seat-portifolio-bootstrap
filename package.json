@@ -1,0 +1,32 @@
+{
+  "name": "@alvesnelio/portifolio-responsivo",
+  "version": "1.0.0",
+  "description": "Defafio portifolio rockeat seat - Desenvolver uma página web para que seja seu portfolio e currículo. Utilizando HTML e CSS.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvesnelio/desafio-rocket-seat-portifolio-bootstrap.git"
+  },
+  "keywords": [
+    "portifolio",
+    "rockeatseat",
+    "desafio",
+    "front-end",
+    "bootstrap"
+  ],
+  "author": "Nélio Souza Alves <nelio13alves@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alvesnelio/desafio-rocket-seat-portifolio-bootstrap/issues"
+  },
+  "homepage": "https://github.com/alvesnelio/desafio-rocket-seat-portifolio-bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "v5.1"
+  }
+}
