@@ -2,7 +2,6 @@
   "name": "@alvesnelio/portifolio-responsivo",
   "version": "1.0.0",
   "description": "Defafio portifolio rockeat seat - Desenvolver uma página web para que seja seu portfolio e currículo. Utilizando HTML e CSS.",
-  "main": "index.js",
   "directories": {
     "doc": "docs"
   },
