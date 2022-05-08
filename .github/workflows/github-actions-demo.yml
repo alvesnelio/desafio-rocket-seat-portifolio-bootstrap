@@ -17,4 +17,6 @@ jobs:
       - name: Instalação do Projeto
         run: |
           cd ${{ github.workspace }} && make project-install
+          cd ${{ github.workspace }} && cp -r node_modules/bootstrap/dist/css/bootstrap.min.css css/bootstrap.min.css
+          cd ${{ github.workspace }} && cp -r node_modules/bootstrap/dist/js/bootstrap.min.css js/bootstrap.min.js
       - run: echo "🍏 This job's status is ${{ job.status }}."
