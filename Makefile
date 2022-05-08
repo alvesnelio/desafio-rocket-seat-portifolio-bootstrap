@@ -12,6 +12,7 @@ RESET=`tput sgr0`
 project-install:
 	@echo "${YELLOW}Instalação do projeto... ${RED}project-install${RESET}."
 
+	@$(MAKE) npm-clear
 	@$(MAKE) npm-install
 
 	@echo "${GREEN}Instalação do projeto realizada com sucesso...${RESET}."

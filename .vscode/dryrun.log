@@ -1,0 +1,19 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/alvesnelio/DEV/estudos/rocket-seat/desafios/portifolio-responsivo'
+echo "`tput setaf 3`Instalação do projeto... `tput setaf 1`project-install`tput sgr0`."
+make npm-clear
+ 
+make[1]: Entering directory '/home/alvesnelio/DEV/estudos/rocket-seat/desafios/portifolio-responsivo'
+echo "`tput setaf 3`Limpando pacotes npm... `tput setaf 1`npm-clear`tput sgr0`."
+rm -rf node_modules;
+echo "`tput setaf 2`Remoção dos pacotes npm realizados com sucesso...`tput sgr0`."
+make[1]: Leaving directory '/home/alvesnelio/DEV/estudos/rocket-seat/desafios/portifolio-responsivo'
+make npm-install
+make[1]: Entering directory '/home/alvesnelio/DEV/estudos/rocket-seat/desafios/portifolio-responsivo'
+echo "`tput setaf 3`Instalando os pacotes npm... `tput setaf 1`npm-install`tput sgr0`."
+npm install;
+echo "`tput setaf 2` Instalação dos pacotes npm realizados com sucesso...`tput sgr0`."
+make[1]: Leaving directory '/home/alvesnelio/DEV/estudos/rocket-seat/desafios/portifolio-responsivo'
+echo "`tput setaf 2`Instalação do projeto realizada com sucesso...`tput sgr0`."
+make: Leaving directory '/home/alvesnelio/DEV/estudos/rocket-seat/desafios/portifolio-responsivo'
+ 
