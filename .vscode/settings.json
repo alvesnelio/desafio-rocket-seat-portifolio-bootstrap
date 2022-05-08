@@ -1,4 +1,28 @@
 {
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "editor.formatOnSave": true,
+    "[html]": {
+        "editor.formatOnSave": true,
+    },
+    "[yaml]": {
+        "editor.formatOnSave": false,
+    },
+    "yaml.format.singleQuote": true,
+    "yaml.format.printWidth": 100,
+    "[xml]": {
+        "editor.formatOnSave": true,
+    },
+    "[json]": {
+        "editor.formatOnSave": true,
+    },
+    "[markdown]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
     "conventionalCommits.scopes": [
         "Desafio RocketSeat",
         "RocketSeat Desafio"
