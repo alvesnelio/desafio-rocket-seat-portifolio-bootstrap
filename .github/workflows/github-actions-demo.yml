@@ -17,6 +17,9 @@ jobs:
       - name: Instalação do Projeto e Pacotes
         run: |
           cd ${{ github.workspace }} 
-          ls node_modules/bootstrap/dist/css/
+          cp node_modules/bootstrap/dist/css/bootstrap.min.css ./css/bootstrap.min.css
+          ls ./css/
+          cp node_modules/bootstrap/dist/js/bootstrap.min.js ./js/bootstrap.min.js
+          ls ./js/
       # cd ${{ github.workspace }} && cp -r node_modules/bootstrap/dist/js/bootstrap.min.css js/bootstrap.min.js
       - run: echo "Configurações realizadas com sucesso."
